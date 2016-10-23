@@ -7,8 +7,8 @@
 ## Data Structures
 - arrays
 - ~~linked lists~~
-- stacks
--  queues
+- ~~stacks~~
+- queues
 - hash-sets
 - hash-maps
 - hash-tables
