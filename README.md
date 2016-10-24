@@ -8,7 +8,7 @@
 - arrays
 - ~~linked lists~~
 - ~~stacks~~
-- queues
+- ~~queues~~
 - hash-sets
 - hash-maps
 - hash-tables
