@@ -31,60 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DIYStackImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-              <folding>
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYStackNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStackNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYStackImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStackImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYQueueImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DIYQueueImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure/DIYQueueImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -93,6 +40,82 @@
                 <element signature="e#1250#1251#0" expanded="true" />
                 <element signature="e#1290#1291#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DIYHashSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunAfters.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DIYHashSetImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="e#1319#1320#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DIYHashSetNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DIYHashSetImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,38 +140,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-              <folding>
-                <element signature="e#8313#8314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYLinkedListImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYLinkedListImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -166,6 +165,10 @@
         <option value="$PROJECT_DIR$/src/data_structure/DIYQueue.java" />
         <option value="$PROJECT_DIR$/src/data_structure/DIYQueueImplTest.java" />
         <option value="$PROJECT_DIR$/src/data_structure/DIYQueueImpl.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/DIYHashSet.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/DIYHashSetNode.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/DIYHashSetImplTest.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/DIYHashSetImpl.java" />
       </list>
     </option>
   </component>
@@ -281,13 +284,33 @@
       <recent name="data_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DIYQueueImplTest">
-    <configuration default="false" name="DIYStackImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DIYHashSetImplTest">
+    <configuration default="false" name="DIYHashSetImplTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYStackImplTest" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashSetImplTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DIYHashSetImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="data_structure" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashSetImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -302,14 +325,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DIYQueueImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DIYHashSetImplTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYQueueImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashSetImplTest" />
+      <option name="METHOD_NAME" value="iterator" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -322,12 +345,12 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DIYQueueImplTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DIYHashSetImplTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYQueueImplTest" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashSetImplTest" />
       <option name="METHOD_NAME" value="size" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -342,33 +365,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="DIYQueueImplTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DIYHashSetImplTest.lotOfItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYQueueImplTest" />
-      <option name="METHOD_NAME" value="dequeue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="DIYQueueImplTest.bigQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYQueueImplTest" />
-      <option name="METHOD_NAME" value="bigQueue" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashSetImplTest" />
+      <option name="METHOD_NAME" value="lotOfItems" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -499,19 +502,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DIYStackImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.size" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.dequeue" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.bigQueue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.add" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.iterator" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.size" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.lotOfItems" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.bigQueue" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.dequeue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DIYQueueImplTest.size" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DIYStackImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.add" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.size" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.lotOfItems" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DIYHashSetImplTest.iterator" />
       </list>
     </recent_temporary>
   </component>
@@ -519,35 +522,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 16h 47m 17s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest - 2016.10.23 at 22h 50m 32s.xml">
+      <configuration name="DIYHashSetImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 16h 49m 30s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest - 2016.10.23 at 23h 00m 38s.xml">
+      <configuration name="DIYHashSetImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 16h 51m 47s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest - 2016.10.23 at 23h 04m 11s.xml">
+      <configuration name="DIYHashSetImplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 16h 59m 05s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_add - 2016.10.23 at 23h 04m 06s.xml">
+      <configuration name="DIYHashSetImplTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 17h 00m 10s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 22h 50m 39s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 17h 01m 31s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 22h 50m 50s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest - 2016.10.23 at 17h 01m 41s.xml">
-      <configuration name="DIYQueueImplTest" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 22h 52m 38s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest_bigQueue - 2016.10.23 at 16h 59m 57s.xml">
-      <configuration name="DIYQueueImplTest.bigQueue" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 22h 52m 49s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest_dequeue - 2016.10.23 at 16h 51m 15s.xml">
-      <configuration name="DIYQueueImplTest.dequeue" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 22h 59m 46s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DIYQueueImplTest_dequeue - 2016.10.23 at 16h 51m 40s.xml">
-      <configuration name="DIYQueueImplTest.dequeue" configurationId="JUnit" />
+    <history-entry file="DIYHashSetImplTest_size - 2016.10.23 at 23h 00m 23s.xml">
+      <configuration name="DIYHashSetImplTest.size" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +563,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -568,7 +571,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,7 +601,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -612,8 +615,8 @@
         <state relative-caret-position="54">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#114#115#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -631,8 +634,8 @@
         <state relative-caret-position="1548">
           <caret line="86" column="15" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
           <folding>
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="false" />
+            <element signature="e#2134#2135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -652,20 +655,20 @@
         <state relative-caret-position="792">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -675,7 +678,7 @@
         <state relative-caret-position="1620">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -685,8 +688,8 @@
         <state relative-caret-position="54">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#64#65#0" expanded="false" />
+            <element signature="e#114#115#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -696,20 +699,20 @@
         <state relative-caret-position="792">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -727,8 +730,8 @@
         <state relative-caret-position="2214">
           <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
           <folding>
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2134#2135#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="false" />
+            <element signature="e#2134#2135#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -738,7 +741,7 @@
         <state relative-caret-position="360">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,6 +832,70 @@
           <folding>
             <element signature="e#1250#1251#0" expanded="true" />
             <element signature="e#1290#1291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
           </folding>
         </state>
       </provider>
