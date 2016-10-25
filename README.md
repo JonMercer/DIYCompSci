@@ -9,7 +9,7 @@
 - ~~linked lists~~
 - ~~stacks~~
 - ~~queues~~
-- hash-sets
+- ~~hash-sets~~
 - hash-maps
 - hash-tables
 - dictionary
