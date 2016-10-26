@@ -29,7 +29,10 @@ public class RAdjacentValueImplTest {
     @Test
     public void adj() throws Exception {
         assertEquals(1, adj.adjacent(new int[]{1, 2, 3, 4, 5}));
+        assertEquals(4, adj.adjacent(new int[]{1, 3, 4, 5, 2}));
         assertEquals(4, adj.adjacent(new int[]{3, 5, 5, 5, 4}));
+        assertEquals(-1, adj.adjacent(new int[]{5, 5, 5, 5, 5}));
+
     }
 
     @Test
@@ -59,5 +62,19 @@ public class RAdjacentValueImplTest {
         List<Integer> quickSortedList = Arrays.stream(quicksorted).boxed().collect(Collectors.toList());
         Collections.sort(list);
         return list.equals(quickSortedList);
+    }
+
+    @Test
+    public void contained() throws Exception {
+        int[] a = new int[]{2,4,8,16,32};
+        assertFalse(((RAdjacentValueImpl) adj).contained(2, 4, a));
+        assertFalse(((RAdjacentValueImpl) adj).contained(16, 32, a));
+        assertTrue(((RAdjacentValueImpl) adj).contained(2, 8, a));
+        assertTrue(((RAdjacentValueImpl) adj).contained(2, 32, a));
+
+        int[] b = new int[]{11, 15, 15, 15, 16, 17, 18};
+        assertFalse(((RAdjacentValueImpl) adj).contained(11, 15, b));
+        assertFalse(((RAdjacentValueImpl) adj).contained(15, 16, b));
+        assertTrue(((RAdjacentValueImpl) adj).contained(11, 18, b));
     }
 }

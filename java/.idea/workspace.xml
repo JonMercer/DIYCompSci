@@ -21,31 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DIYHashMapImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashMapImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="144" column="100" selection-start-line="144" selection-start-column="100" selection-end-line="144" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DIYBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
         <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,22 +43,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAdjacentValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java">
+      <file leaf-file-name="RunAfters.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="169">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAdjacentValueImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RAdjacentValue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RAdjacentValueImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1831#1832#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrictMath.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="357" column="25" selection-start-line="357" selection-start-column="25" selection-end-line="357" selection-end-column="25" />
+              <folding>
+                <element signature="e#13419#13420#0" expanded="true" />
+                <element signature="e#13473#13474#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +93,8 @@
       <file leaf-file-name="RAdjacentValueImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="594">
+              <caret line="33" column="63" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,9 +171,9 @@
         <option value="$PROJECT_DIR$/src/data_structure/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java" />
-        <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java" />
         <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValueImpl.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java" />
       </list>
     </option>
   </component>
@@ -284,27 +291,7 @@
       <recent name="data_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RAdjacentValueImplTest.quicksort">
-    <configuration default="false" name="DIYHashMapImplTest.bigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="data_structure" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.DIYHashMapImplTest" />
-      <option name="METHOD_NAME" value="bigTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RAdjacentValueImplTest.adj">
     <configuration default="false" name="SolutionTest.solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -373,6 +360,26 @@
       <option name="MAIN_CLASS_NAME" value="coding_questions.RAdjacentValueImplTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RAdjacentValueImplTest.contained" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="coding_questions" />
+      <option name="MAIN_CLASS_NAME" value="coding_questions.RAdjacentValueImplTest" />
+      <option name="METHOD_NAME" value="contained" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -502,19 +509,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DIYHashMapImplTest.bigTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.solution" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.quicksort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.adj" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.solution" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.quicksort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.adj" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.contained" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.quicksort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.adj" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.solution" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DIYHashMapImplTest.bigTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.adj" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.contained" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest.quicksort" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RAdjacentValueImplTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.solution" />
       </list>
     </recent_temporary>
   </component>
@@ -522,35 +529,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 56m 08s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_adj - 2016.10.25 at 20h 13m 30s.xml">
+      <configuration name="RAdjacentValueImplTest.adj" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 56m 28s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_adj - 2016.10.25 at 20h 14m 51s.xml">
+      <configuration name="RAdjacentValueImplTest.adj" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 57m 01s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_adj - 2016.10.25 at 20h 30m 43s.xml">
+      <configuration name="RAdjacentValueImplTest.adj" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 57m 08s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_adj - 2016.10.25 at 20h 33m 09s.xml">
+      <configuration name="RAdjacentValueImplTest.adj" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 57m 32s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_adj - 2016.10.25 at 20h 40m 45s.xml">
+      <configuration name="RAdjacentValueImplTest.adj" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 57m 47s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_contained - 2016.10.25 at 20h 04m 31s.xml">
+      <configuration name="RAdjacentValueImplTest.contained" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 58m 40s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_contained - 2016.10.25 at 20h 07m 05s.xml">
+      <configuration name="RAdjacentValueImplTest.contained" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 58m 55s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_contained - 2016.10.25 at 20h 11m 08s.xml">
+      <configuration name="RAdjacentValueImplTest.contained" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 59m 13s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_contained - 2016.10.25 at 20h 12m 37s.xml">
+      <configuration name="RAdjacentValueImplTest.contained" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RAdjacentValueImplTest_quicksort - 2016.10.25 at 18h 59m 29s.xml">
-      <configuration name="RAdjacentValueImplTest.quicksort" configurationId="JUnit" />
+    <history-entry file="RAdjacentValueImplTest_contained - 2016.10.25 at 20h 13m 04s.xml">
+      <configuration name="RAdjacentValueImplTest.contained" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -563,14 +570,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32406417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32406417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,7 +615,7 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -879,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure/DIYHashSetImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1027,26 +1026,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="169">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="357" column="25" selection-start-line="357" selection-start-column="25" selection-end-line="357" selection-end-column="25" />
+          <folding>
+            <element signature="e#13419#13420#0" expanded="true" />
+            <element signature="e#13473#13474#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="594">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1055,8 +1065,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
