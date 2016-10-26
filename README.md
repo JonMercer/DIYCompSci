@@ -10,9 +10,7 @@
 - ~~stacks~~
 - ~~queues~~
 - ~~hash-sets~~
-- hash-maps
-- hash-tables
-- dictionary
+- ~~hash-maps~~
 - trees and binary trees
 - heaps and graphs
 
