@@ -53,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DIYBinaryTreeImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DIYBinaryTreeImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -100,140 +100,49 @@
       <file leaf-file-name="DIYBinaryTreeImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAdjacentValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java">
+      <file leaf-file-name="MSwirl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding_questions/MSwirl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="126">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAdjacentValueImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImpl.java">
+      <file leaf-file-name="MMovePatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding_questions/MMovePatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1766#1767#0" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StrictMath.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
+      <file leaf-file-name="PTrading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coding_questions/PTrading.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5958">
-              <caret line="357" column="25" selection-start-line="357" selection-start-column="25" selection-end-line="357" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#64468#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#12605#12606#0" expanded="false" />
-                <element signature="e#12658#12659#0" expanded="false" />
-                <element signature="e#26332#26333#0" expanded="false" />
-                <element signature="e#26368#26369#0" expanded="false" />
-                <element signature="e#27296#27297#0" expanded="false" />
-                <element signature="e#27332#27333#0" expanded="false" />
-                <element signature="e#28559#28560#0" expanded="false" />
-                <element signature="e#28644#28645#0" expanded="false" />
-                <element signature="e#29035#29036#0" expanded="false" />
-                <element signature="e#29077#29078#0" expanded="false" />
-                <element signature="e#29473#29474#0" expanded="false" />
-                <element signature="e#29515#29516#0" expanded="false" />
-                <element signature="e#29950#29951#0" expanded="false" />
-                <element signature="e#29997#29998#0" expanded="false" />
-                <element signature="e#30437#30438#0" expanded="false" />
-                <element signature="e#30484#30485#0" expanded="false" />
-                <element signature="e#30889#30890#0" expanded="false" />
-                <element signature="e#30936#30937#0" expanded="false" />
-                <element signature="e#31346#31347#0" expanded="false" />
-                <element signature="e#31393#31394#0" expanded="false" />
-                <element signature="e#31788#31789#0" expanded="false" />
-                <element signature="e#31833#31834#0" expanded="false" />
-                <element signature="e#32782#32783#0" expanded="false" />
-                <element signature="e#32824#32825#0" expanded="false" />
-                <element signature="e#33771#33772#0" expanded="false" />
-                <element signature="e#33813#33814#0" expanded="false" />
-                <element signature="e#34733#34734#0" expanded="false" />
-                <element signature="e#34776#34777#0" expanded="false" />
-                <element signature="e#35703#35704#0" expanded="false" />
-                <element signature="e#35745#35746#0" expanded="false" />
-                <element signature="e#36352#36353#0" expanded="false" />
-                <element signature="e#36386#36387#0" expanded="false" />
-                <element signature="e#36993#36994#0" expanded="false" />
-                <element signature="e#37027#37028#0" expanded="false" />
-                <element signature="e#37831#37832#0" expanded="false" />
-                <element signature="e#37865#37866#0" expanded="false" />
-                <element signature="e#38674#38675#0" expanded="false" />
-                <element signature="e#38708#38709#0" expanded="false" />
-                <element signature="e#39130#39131#0" expanded="false" />
-                <element signature="e#39167#39168#0" expanded="false" />
-                <element signature="e#39593#39594#0" expanded="false" />
-                <element signature="e#39630#39631#0" expanded="false" />
-                <element signature="e#40330#40331#0" expanded="false" />
-                <element signature="e#40367#40368#0" expanded="false" />
-                <element signature="e#41071#41072#0" expanded="false" />
-                <element signature="e#41108#41109#0" expanded="false" />
-                <element signature="e#41529#41530#0" expanded="false" />
-                <element signature="e#41566#41567#0" expanded="false" />
-                <element signature="e#41990#41991#0" expanded="false" />
-                <element signature="e#42027#42028#0" expanded="false" />
-                <element signature="e#42729#42730#0" expanded="false" />
-                <element signature="e#42766#42767#0" expanded="false" />
-                <element signature="e#43471#43472#0" expanded="false" />
-                <element signature="e#43508#43509#0" expanded="false" />
-                <element signature="e#44523#44524#0" expanded="false" />
-                <element signature="e#44557#44558#0" expanded="false" />
-                <element signature="e#45566#45567#0" expanded="false" />
-                <element signature="e#45600#45601#0" expanded="false" />
-                <element signature="e#46255#46256#0" expanded="false" />
-                <element signature="e#46292#46293#0" expanded="false" />
-                <element signature="e#46947#46948#0" expanded="false" />
-                <element signature="e#46984#46985#0" expanded="false" />
-                <element signature="e#53999#54000#0" expanded="false" />
-                <element signature="e#54041#54042#0" expanded="false" />
-                <element signature="e#54567#54568#0" expanded="false" />
-                <element signature="e#54609#54610#0" expanded="false" />
-                <element signature="e#56269#56270#0" expanded="false" />
-                <element signature="e#56324#56325#0" expanded="false" />
-                <element signature="e#57907#57908#0" expanded="false" />
-                <element signature="e#57962#57963#0" expanded="false" />
-                <element signature="e#58812#58813#0" expanded="false" />
-                <element signature="e#58849#58850#0" expanded="false" />
-                <element signature="e#59695#59696#0" expanded="false" />
-                <element signature="e#59732#59733#0" expanded="false" />
-                <element signature="e#60588#60589#0" expanded="false" />
-                <element signature="e#60627#60628#0" expanded="false" />
-                <element signature="e#61479#61480#0" expanded="false" />
-                <element signature="e#61518#61519#0" expanded="false" />
-                <element signature="e#62945#62946#0" expanded="false" />
-                <element signature="e#62994#62995#0" expanded="false" />
-                <element signature="e#64415#64416#0" expanded="false" />
-                <element signature="e#64464#64465#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RAdjacentValueImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java">
+      <file leaf-file-name="RShortestPath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coding_questions/RShortestPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -243,9 +152,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -279,8 +188,12 @@
         <option value="$PROJECT_DIR$/src/coding_questions/RAdjacentValue.java" />
         <option value="$PROJECT_DIR$/src/data_structure/DIYBinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/data_structure/DIYBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImpl.java" />
         <option value="$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImplTest.java" />
+        <option value="$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImpl.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/MMovePatch.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/MSwirl.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/PTrading.java" />
+        <option value="$PROJECT_DIR$/src/coding_questions/RShortestPath.java" />
       </list>
     </option>
   </component>
@@ -371,6 +284,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data_structure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coding_questions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +615,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -737,42 +668,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/coding_questions/RAdjacentValueImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStackImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStackNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure/DIYStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1325,14 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1343,6 +1230,46 @@
             <element signature="e#3250#3251#0" expanded="true" />
             <element signature="e#3287#3288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data_structure/DIYBinaryTreeImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding_questions/MMovePatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding_questions/MSwirl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding_questions/PTrading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coding_questions/RShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+          <folding />
         </state>
       </provider>
     </entry>
