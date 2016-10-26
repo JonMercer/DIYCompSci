@@ -8,13 +8,11 @@ import java.util.List;
 public interface DIYBinaryTree {
     void add(int i);
 
-    void remove(int i);
+    int[] inOrder();
 
-    List<Integer> inOrder();
+    int[] postOrder();
 
-    List<Integer> postOrder();
-
-    List<Integer> preOrder();
+    int[] preOrder();
 
     boolean isEmpty();
 
