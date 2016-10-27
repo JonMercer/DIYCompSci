@@ -1,24 +1,21 @@
 # DIYCompSci
 
 ## Sorting
-- Quicksort
+- ~~Quicksort~~
 - Merge Sort
 
 ## Data Structures
-- arrays
+- ~~arrays~~
 - ~~linked lists~~
 - ~~stacks~~
 - ~~queues~~
 - ~~hash-sets~~
-- ~~hash-maps~~
-- trees and binary trees
-- heaps and graphs
 
 ## Hash Table
-- implement and explain
+- ~~implement and explain~~
 
 ## Trees
-- binary trees
+- ~~binary trees~~
 - n-ary trees
 - trie-trees
 - red/black tree or splay tree or AVL tree
@@ -33,7 +30,7 @@
 ## Traversal
 - BFS
 - DFS
-- Inorder and postorder and preorder traversal
+- ~~Inorder and postorder and preorder traversal~~: DIYBinaryTree
 
 ## Algorithms
 - divide-and-conquer
