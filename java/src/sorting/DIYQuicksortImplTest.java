@@ -135,9 +135,9 @@ public class DIYQuicksortImplTest {
     @Test
     public void sortBig() throws Exception {
         Random rand = new Random();
-        for (int j = 0; j < 300; j++) {
+        for (int j = 0; j < 333; j++) {
             //populate an array with random numbers
-            int size = 5555;
+            int size = 4444;
             int[] big = new int[size];
             for (int i = 0; i < size; i++) {
                 big[i] = rand.nextInt(size);
@@ -151,6 +151,29 @@ public class DIYQuicksortImplTest {
             Collections.sort(bigList);
 
             assertEquals(bigList, mySortList);
+        }
+    }
+
+    @Test
+    public void sortCustomItem() throws Exception {
+        DIYQuicksort<DIYQuicksortCustomItem> customQuicksort = new DIYQuicksortImpl<>();
+        DIYQuicksortCustomItem item1 = new DIYQuicksortCustomItem(11);
+        DIYQuicksortCustomItem item2 = new DIYQuicksortCustomItem(14);
+        DIYQuicksortCustomItem item3 = new DIYQuicksortCustomItem(12);
+        DIYQuicksortCustomItem item4 = new DIYQuicksortCustomItem(13);
+
+        DIYQuicksortCustomItem[] items = new DIYQuicksortCustomItem[]{
+                item1, item2, item3, item4
+        };
+
+        DIYQuicksortCustomItem[] correctAnswer = new DIYQuicksortCustomItem[]{
+                item1, item3, item4, item2
+        };
+
+        DIYQuicksortCustomItem[] myQuicksorted = customQuicksort.sort(items);
+
+        for (int i = 0; i < correctAnswer.length; i++) {
+            assertTrue(correctAnswer[i].equals(myQuicksorted[i]));
         }
     }
 
