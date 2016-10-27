@@ -31,14 +31,6 @@ public class DIYBinaryTreeImplTest {
 
     @Test
     public void inOrder() throws Exception {
-        DIYBinaryTree myTree = new DIYBinaryTreeImpl();
-        myTree.add(3);
-        myTree.add(1);
-        myTree.add(5);
-        myTree.add(4);
-        myTree.add(2);
-
-        int[] order = myTree.inOrder();
         assertTrue(compare(new int[]{1, 2, 3, 4}, new int[]{1, 2, 3, 4}, Ord.IN));
         assertTrue(compare(new int[]{1, 2, 3, 4, 5}, new int[]{3, 1, 5, 4, 2}, Ord.IN));
     }
