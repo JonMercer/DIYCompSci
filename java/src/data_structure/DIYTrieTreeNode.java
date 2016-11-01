@@ -2,84 +2,72 @@ package data_structure;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
  * Created by Odin on 2016-10-28.
  */
-public class DIYTrieTreeNode implements Comparable {
+public class DIYTrieTreeNode {
+    private boolean isEndOfWord = false;
     private char item;
     private int count = 1;
-    List<DIYTrieTreeNode> children = new ArrayList<>();
-    private boolean endOfWord = false;
+    private List<DIYTrieTreeNode> children = new ArrayList<>();
 
-    public DIYTrieTreeNode(char item) {
-        this.item = item;
+    public DIYTrieTreeNode() {
+        item = ' ';
     }
 
-    public DIYTrieTreeNode(char a, int i) {
-        this.item = a;
-        this.count = i;
+
+    public DIYTrieTreeNode(char c, boolean b) {
+        isEndOfWord = b;
+        this.item = c;
     }
 
-    public DIYTrieTreeNode setChild(char c) {
-        DIYTrieTreeNode childToReturn = null;
-        for (int i = 0; i < children.size(); i++) {
-            if (children.get(i).getItem() == c) {
-                childToReturn = children.get(i);
-                childToReturn.incrementCount();
-                break;
+    public DIYTrieTreeNode findChild(char c) {
+        for (DIYTrieTreeNode child : children) {
+            if (child.getItem() == c) {
+                return child;
             }
         }
-
-        if (childToReturn == null) {
-            childToReturn = new DIYTrieTreeNode(c);
-            children.add(childToReturn);
-        }
-        Collections.sort(children);
-        return childToReturn;
-    }
-
-    private void incrementCount() {
-        count++;
+        return null;
     }
 
     public char getItem() {
         return item;
     }
 
-    public int getCount() {
-        return count;
+    public void addChild(DIYTrieTreeNode child) {
+        children.add(child);
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public void customSort() {
+        Collections.sort(children, new Comparator<DIYTrieTreeNode>() {
+            @Override
+            public int compare(DIYTrieTreeNode n1, DIYTrieTreeNode n2)
+            {
+                if (n1.count < n2.count) {
+                    //return -1;
+                    return 1; //reverse sort
+                } else if (n1.count == n2.count) {
+                    return 0;
+                } else {
+                    //return 1;
+                    return -1; //reverse sort
+                }
+            }
+        });
     }
 
     public List<DIYTrieTreeNode> getChildren() {
         return children;
     }
 
-    @Override
-    public int compareTo(Object o) {
-        if (o.getClass() != this.getClass()) {
-            return -99;
-        }
-        if (this.count == ((DIYTrieTreeNode) o).count) {
-            return 0;
-        } else if (this.count < ((DIYTrieTreeNode) o).count) {
-            return -1;
-        } else {
-            return 1;
-
-        }
-    }
-
     public boolean isEndOfWord() {
-        return endOfWord;
+        return isEndOfWord;
     }
 
-    public void setEndOfWord() {
-        endOfWord = true;
+    public void increment() {
+        count++;
     }
 }

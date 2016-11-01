@@ -13,4 +13,6 @@ public interface DIYTrieTree {
     List<String> predict(String s);
 
     int size();
+
+    int wordCount();
 }

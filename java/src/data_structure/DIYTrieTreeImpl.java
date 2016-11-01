@@ -1,14 +1,13 @@
 package data_structure;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 /**
  * Created by Odin on 2016-10-28.
  */
 public class DIYTrieTreeImpl implements DIYTrieTree {
-    DIYTrieTreeNode root = new DIYTrieTreeNode(' ');
+    DIYTrieTreeNode root = new DIYTrieTreeNode();
 
     @Override
     public void add(String s) {
@@ -16,87 +15,113 @@ public class DIYTrieTreeImpl implements DIYTrieTree {
             return;
         }
 
-        placeInTree(s, 0, root);
+        addToTree(root, s, 0);
     }
 
-    private void placeInTree(String s, int i, DIYTrieTreeNode parent) {
-        if (parent == null) {
+    private void addToTree(DIYTrieTreeNode node, String s, int i) {
+        if (i == s.length()) {
             return;
         }
 
-        DIYTrieTreeNode child = parent.setChild(s.charAt(i));
-        if (i == s.length() - 1) {
-            child.setEndOfWord();
-            return;
+        DIYTrieTreeNode child = node.findChild(s.charAt(i));
+
+        if (child == null) {
+            child = new DIYTrieTreeNode(s.charAt(i), s.length() == i + 1);
+            node.addChild(child);
+            node.customSort();
+        } else {
+            child.increment();
+            node.customSort();
         }
-        placeInTree(s, ++i, child);
+        addToTree(child, s, ++i);
     }
+
 
     @Override
     public void clear() {
-        root = new DIYTrieTreeNode(' ');
+        root = new DIYTrieTreeNode();
     }
 
     @Override
     public List<String> predict(String s) {
-        DIYTrieTreeNode node = rootOfPrediction(s, 0, root);
+        DIYTrieTreeNode lastNode = getLastLetterNodeFromString(root, s, 0);
         List<String> strings = new ArrayList<>();
-        getAllPredictions(node, strings, s.substring(0, s.length()-1));
+        getPredictions(lastNode, strings, s.substring(0, s.length() - 1));
         return strings;
     }
 
-    private DIYTrieTreeNode rootOfPrediction(String s, int i, DIYTrieTreeNode node) {
-        if (s.length() == i) {
+    private void getPredictions(DIYTrieTreeNode node, List<String> strings, String preString) {
+        if (node == null) {
+            return;
+        }
+
+        if (node.isEndOfWord()) {
+            strings.add(preString + node.getItem());
+        }
+
+        preString += node.getItem();
+
+        for (DIYTrieTreeNode child : node.getChildren()) {
+            getPredictions(child, strings, preString);
+        }
+    }
+
+    private DIYTrieTreeNode getLastLetterNodeFromString(DIYTrieTreeNode node, String s, int i) {
+        if (i == s.length()) {
             return node;
         }
 
-        for (int j = 0; j < node.getChildren().size(); j++) {
-            if (node.getChildren().get(j).getItem() == s.charAt(i)) {
-                return rootOfPrediction(s, ++i, node.getChildren().get(j));
-            }
-        }
+        DIYTrieTreeNode child = node.findChild(s.charAt(i));
 
-        return null;
-    }
-
-    private void getAllPredictions(DIYTrieTreeNode node, List<String> stringsToFillUp, String stringSoFar) {
-        if (node.getChildren().size() == 0) {
-            stringSoFar += node.getItem();
-            stringsToFillUp.add(stringSoFar);
-            return;
-        } else {
-            Collections.sort(node.getChildren());
-        }
-
-        if (node.isEndOfWord() && stringsToFillUp.size() > 0) {
-
-            stringSoFar += node.getItem();
-            stringsToFillUp.add(stringSoFar);
-        }
-        stringSoFar += node.getItem();
-        for (DIYTrieTreeNode child : node.getChildren()) {
-            getAllPredictions(child, stringsToFillUp, stringSoFar);
-        }
+        return getLastLetterNodeFromString(child, s, ++i);
     }
 
     @Override
     public int size() {
-        if (root.getChildren().size() == 0) {
-            return 0;
-        }
-        return getCount(root) - 1;
+        return treeSize(root, 0) - 1;
     }
 
-    private int getCount(DIYTrieTreeNode node) {
+    private int treeSize(DIYTrieTreeNode node, int i) {
         if (node == null) {
-            return 0;
+            return i;
         }
-        int k = 1;
-        List<DIYTrieTreeNode> children = node.getChildren();
-        for (int i = 0; i < children.size(); i++) {
-            k = k + getCount(children.get(i));
+        for (DIYTrieTreeNode child : node.getChildren()) {
+            i = treeSize(child, i);
         }
-        return k;
+        return i + 1;
     }
+
+    @Override
+    public int wordCount() {
+        return wordCount(root, 0);
+    }
+
+    private int wordCount(DIYTrieTreeNode node, int i) {
+        if (node.isEndOfWord()) {
+            i++;
+        }
+        for (DIYTrieTreeNode child : node.getChildren()) {
+            i = wordCount(child, i);
+        }
+        return i;
+    }
+
+    public void debug() {
+        printAllChars(root, "");
+    }
+
+    private void printAllChars(DIYTrieTreeNode node, String s) {
+        s += "\t";
+        char item = node.getItem();
+        if (node.isEndOfWord()) {
+            item = Character.toUpperCase(item);
+        }
+        System.out.println(s + item);
+
+        for (DIYTrieTreeNode child : node.getChildren()) {
+            printAllChars(child, s);
+        }
+    }
+
 
 }
