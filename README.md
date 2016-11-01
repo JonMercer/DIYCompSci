@@ -16,8 +16,8 @@
 
 ## Trees
 - ~~binary trees~~
-- n-ary trees
-- trie-trees
+- ~~n-ary trees~~ similar to trie-tree
+- ~~trie-trees~~
 - red/black tree or splay tree or AVL tree
 
 ## Graphs
