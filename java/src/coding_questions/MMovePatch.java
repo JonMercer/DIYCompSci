@@ -5,5 +5,5 @@ package coding_questions;
  */
 //given a 2D array initial coords, len, and width, swap all items to bottom right of box
 public interface MMovePatch {
-    char[][] patch(char[][] arr, int x1, int y1, int len, int width);
+    String[][] patch(String[][] arr, int x1, int y1, int len, int width);
 }
