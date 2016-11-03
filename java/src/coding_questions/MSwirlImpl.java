@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Created by Odin on 2016-11-02.
  */
+//This is a better solution: http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/
 public class MSwirlImpl implements MSwirl {
     enum Direction{
         N,
@@ -25,7 +26,17 @@ public class MSwirlImpl implements MSwirl {
         return toReturn;
     }
 
-    private void swirl(char[][] arr, Direction dir, int x, int y, int hStep, int vStep, int hMax, int vMax, List<Character> chars, int step) {
+    private void swirl(
+            char[][] arr,
+            Direction dir,
+            int x,
+            int y,
+            int hStep,
+            int vStep,
+            int hMax,
+            int vMax,
+            List<Character> chars,
+            int step) {
 //        System.out.println("d:"+dir +" x:"+x +" y:"+ y +" hS:"+ hStep +" vS:"+ vStep +" hM:"+ hMax +" vM:"+ vMax +" ## "+ chars.toString());
         ++step;
 
