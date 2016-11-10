@@ -3,7 +3,7 @@ package coding_questions;
 /**
  * Created by Odin on 2016-10-26.
  */
-//Given a 2D array, how many steps until the two swirls meet?
+//Given a 2D array of characters, print the string from a clockwise pattern
 public interface MSwirl {
-    int swirl(char[][] arr);
+    String swirl(char[][] arr);
 }

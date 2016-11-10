@@ -6,6 +6,12 @@ package data_structure;
 public class DIYBinaryTreeImpl implements DIYBinaryTree {
     DIYBinaryTreeNode head = null;
 
+    private enum Order {
+        PRE,
+        POST,
+        IN
+    }
+
     @Override
     public void add(int i) {
         if (head == null) {
@@ -51,23 +57,43 @@ public class DIYBinaryTreeImpl implements DIYBinaryTree {
     @Override
     public int[] inOrder() {
         if (head == null) {
-            return new int[0];
+            return null;
         }
 
         int[] toReturn = new int[size()];
         int i = 0;
 
-        return traverseInOrder(i, toReturn, head);
+        traverseInOrder(i, toReturn, head, Order.IN);
+        return toReturn;
     }
 
-    private int[] traverseInOrder(int i, int[] toReturn, DIYBinaryTreeNode node) {
+    private int traverseInOrder(int i, int[] toReturn, DIYBinaryTreeNode node, Order order) {
         if (node == null) {
-            return toReturn;
+            return i;
         }
-        toReturn = traverseInOrder(i, toReturn, node.getLeft());
-        toReturn[i] = node.getItem();
-        i++;
-        return traverseInOrder(i, toReturn, node.getRight());
+
+        switch (order) {
+            case IN:
+                i = traverseInOrder(i, toReturn, node.getLeft(), order);
+                toReturn[i] = node.getItem();
+                i++;
+                i = traverseInOrder(i, toReturn, node.getRight(), order);
+                break;
+            case PRE:
+                toReturn[i] = node.getItem();
+                i++;
+                i = traverseInOrder(i, toReturn, node.getLeft(), order);
+                i = traverseInOrder(i, toReturn, node.getRight(), order);
+                break;
+            case POST:
+                i = traverseInOrder(i, toReturn, node.getLeft(), order);
+                i = traverseInOrder(i, toReturn, node.getRight(), order);
+                toReturn[i] = node.getItem();
+                i++;
+                break;
+        }
+
+        return i;
     }
 
     @Override
@@ -79,18 +105,7 @@ public class DIYBinaryTreeImpl implements DIYBinaryTree {
         int[] toReturn = new int[size()];
         int i = 0;
 
-        return traversePostOrder(i, toReturn, head);
-    }
-
-    private int[] traversePostOrder(int i, int[] toReturn, DIYBinaryTreeNode node) {
-        if (node == null) {
-            return toReturn;
-        }
-        toReturn = traverseInOrder(i, toReturn, node.getLeft());
-
-        toReturn = traverseInOrder(i, toReturn, node.getRight());
-        toReturn[i] = node.getItem();
-        i++;
+        traverseInOrder(i, toReturn, head, Order.POST);
         return toReturn;
     }
 
@@ -103,17 +118,7 @@ public class DIYBinaryTreeImpl implements DIYBinaryTree {
         int[] toReturn = new int[size()];
         int i = 0;
 
-        return traversePreOrder(i, toReturn, head);
-    }
-
-    private int[] traversePreOrder(int i, int[] toReturn, DIYBinaryTreeNode node) {
-        if (node == null) {
-            return toReturn;
-        }
-        toReturn[i] = node.getItem();
-        i++;
-        toReturn = traverseInOrder(i, toReturn, node.getLeft());
-        toReturn = traverseInOrder(i, toReturn, node.getRight());
+        traverseInOrder(i, toReturn, head, Order.PRE);
         return toReturn;
     }
 
